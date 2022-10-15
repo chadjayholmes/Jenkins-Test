@@ -58,7 +58,7 @@ class Calculator {
     String intToBinaryNumber(int n){
         return Integer.toBinaryString(n);
     }
-
+    //
     /*
     Create a completely unique String identifier for a given string
     Each createdID must contain the string n in its unaltered Form
