@@ -1,4 +1,7 @@
 
+import java.io.*;
+import java.util.Random;
+
 class Calculator {
 
     Calculator(){
@@ -53,7 +56,7 @@ class Calculator {
     if int a = 16 then this method returns: 10000
      */
     String intToBinaryNumber(int n){
-        return null;
+        return Integer.toBinaryString(n);
     }
 
     /*
@@ -65,8 +68,12 @@ class Calculator {
     if you run this function twice with the same String input, it must return 2 unique String IDs
      */
     String createUniqueID(String n){
-
-        return null;
+        Random rand = new Random();
+        String unique = n;
+        for(int i = 0; i < n.length(); i++) {
+            unique += (char)('z' - rand.nextInt(23));
+        }
+        return unique;
     }
 
 
