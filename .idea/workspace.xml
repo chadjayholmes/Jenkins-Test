@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ccca33a-e96e-469b-9880-85f69c3f39fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,14 @@
       <recent name="C:\Users\xris\Desktop\Winter 2020\Cs 340\IntelljProjects\JenkinsCalculator\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTestThorough">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Jenkins-Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTestThorough" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Jenkins-Test" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CalculatorTestThorough" />
         <item itemvalue="JUnit.CalculatorTest.divideTest" />
       </list>
@@ -86,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581191690472</updated>
       <workItem from="1665801122831" duration="5258000" />
-      <workItem from="1666385324803" duration="644000" />
+      <workItem from="1666385324803" duration="1965000" />
     </task>
     <servers />
   </component>
